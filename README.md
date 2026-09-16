@@ -1,3 +1,2 @@
 # mora0293.github.io
-my repository for web design class
-
+my repository for the web design course
