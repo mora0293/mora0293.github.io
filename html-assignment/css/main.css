@@ -1,0 +1,68 @@
+body {
+font-size: 18px;
+font-family:'Trebuchet MS', 'Lucida Sans', Arial, sans-serif
+
+}
+header, footer {
+    background-color:#FFD6D1;
+    height: 60px;
+}
+
+.site-title{
+    color:#0B665C;
+}
+
+h1 {
+color:#1e8176
+}
+
+
+h2, h3{
+    color:#3c8e84;
+}
+
+#my-image {
+box-shadow: 0 0 2px 1px black;
+width: 21%;
+height: auto;
+float: left;
+margin-right: 20px;
+}
+
+ul {
+    list-style: square;
+}
+
+ul li:nth-child(odd) {
+    background-color:#D3E8E4;
+}
+
+a {
+text-decoration: none;
+color: #000;
+border:1px solid #f18181d5;
+border-radius: 5px;
+background-color:#F9ECE5;
+}
+
+a:hover {
+    background-color:#CADEDA;
+    border-color: #0B665C;
+}
+dl {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+    border: 1px solid #D3E8E4;
+}
+dt, dd {
+    padding: 15px;
+    border: 2px solid #D3E8E4;
+    margin: 0;
+}
+dt {
+    font-weight: bold;
+    background-color: #deedea;
+    color:#0B665C
+}
+
+/*Sorry, I forgot to keep saving my process on Github*/
