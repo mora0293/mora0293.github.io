@@ -49,16 +49,19 @@ a:hover {
     background-color:#CADEDA;
     border-color: #0B665C;
 }
+
 dl {
     display: grid;
     grid-template-columns: 0.5fr 3fr;
     border: 1px solid #D3E8E4;
 }
+
 dt, dd {
     padding: 15px;
     border: 2px solid #D3E8E4;
     margin: 0;
 }
+
 dt {
     font-weight: bold;
     background-color: #deedea;
