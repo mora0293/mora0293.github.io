@@ -8,22 +8,28 @@ html {
 
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:#A5FCCB;
+    background-color:#22DC8F;
 }
+
+header {
+    position: relative;
+}
+
 header img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
 h1 {
-    position: absolute;
-    top: 90px;
-    left: 670px;
+    color: white;
+    position:absolute;
+    top: 120px;
+    left: 44%;
 }
 
 .wrapper {
-    width:800px;
-    background-color:#22DC8F;
+    width:70%;
+    background-color:#A5FCCB;
     margin: 0 auto;
 }
 
@@ -34,7 +40,7 @@ nav ul {
 
 nav li {
 display:inline-block;
-width:250px;
+width:33%;
 text-align: center;
 font-size: 1.5rem;
 border-left: 1px solid gray;
@@ -45,5 +51,26 @@ nav li:first-child {
 border-left:none;
 }
 
+.article {
+ box-shadow: 0 0 2px 1px black;
+width: 40%;
+height: auto;
+float: left;
+margin: 20px;
 
+}
+
+p {
+margin:15px 20px;
+}
+
+article img {
+    float: left;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear:both
+}
 
