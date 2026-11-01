@@ -39,6 +39,7 @@ nav ul {
 }
 
 nav li {
+
 display:inline-block;
 width:33%;
 text-align: center;
@@ -46,10 +47,22 @@ font-size: 1.5rem;
 border-left: 1px solid gray;
 
 }
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black
+}
 
 nav li:first-child {
 border-left:none;
 }
+
+h2 {
+    padding-left: 25px;
+    margin-bottom: auto;
+    
+}
+
 
 .article {
  box-shadow: 0 0 2px 1px black;
@@ -73,4 +86,43 @@ article img {
     display: block;
     clear:both
 }
+
+
+ form {
+    
+    display:block;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+   line-height: 2rem;
+ }
+
+
+
+div .radio {
+    display:inline-flex;
+    width: auto;
+    border: px solid gray;
+}
+
+input[type="text"],
+input[type="email"],
+textarea, {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid gray;
+    box-sizing: border-box;}
+
+textarea {
+    height: 120px;
+    
+}
+
+footer {
+    text-align: right;
+    padding: 20px;
+}
+
+
+
 
