@@ -106,7 +106,6 @@ article img {
 div .radio {
     display:inline-flex;
     width: auto;
-    border:solid gray;
 }
 
 input[type="text"],input[type="email"],textarea {
