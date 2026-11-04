@@ -64,9 +64,9 @@ h2 {
 }
 
 
-.article {
- box-shadow: 0 0 2px 1px black;
-width: 40%;
+.article-img {
+ box-shadow: 0 0 2px 1px grey;
+width: 35%;
 height: auto;
 float: left;
 margin: 20px;
@@ -87,7 +87,6 @@ article img {
     clear:both
 }
 
-
  form {
     
     display:block;
@@ -98,16 +97,13 @@ article img {
  }
 
 
-
 div .radio {
     display:inline-flex;
     width: auto;
     border: px solid gray;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+input[type="text"],input[type="email"],textarea {
     width: 100%;
     padding: 15px;
     border: 1px solid gray;
