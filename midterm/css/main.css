@@ -17,11 +17,14 @@ header {
     position: relative;
 }
 
+/*  make image resposive */
 header img {
     width: 100%;
     height: auto;
 }
 
+
+/* It is center positioned when in full screen */
 h1 {
     color: white;
     position:absolute;
@@ -43,14 +46,13 @@ nav ul {
 }
 
 nav li {
-
-display:inline-block;
-width: 32%;
-text-align: center;
-font-size: 1.5rem;
-border-left: 1px solid gray;
-
+    display:inline-block;
+    width: 32%;
+    text-align: center;
+    font-size: 1.5rem;
+    border-left: 1px solid gray;
 }
+
 nav a {
     text-decoration: none;
     text-transform: uppercase;
@@ -65,17 +67,15 @@ h2 {
     padding-left: 25px;
     margin-bottom:2%;
     margin-top: 2%;
-    
 }
 
 
 .article-img {
- box-shadow: 0 0 2px 1px grey;
-width: 35%;
-height: auto;
-float: left;
-margin: 20px;
-
+    box-shadow: 0 0 2px 1px grey;
+    width: 35%;
+    height: auto;
+    float: left;
+    margin: 20px;
 }
 
 p {
@@ -86,6 +86,7 @@ article img {
     float: left;
 }
 
+/* that class cleans the float*/
 .clearfix::after{
     content: '';
     display: block;
@@ -112,11 +113,11 @@ input[type="text"],input[type="email"],textarea {
     width: 100%;
     padding: 15px;
     border: 1px solid gray;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
 
 textarea {
-    height: 120px;
-    
+    height: 120px;   
 }
 
 footer {
@@ -125,12 +126,12 @@ footer {
 }
 
 button {
-background-color:#cfe8e5;
-padding: 8px;
-text-transform: uppercase;
-border: 1px solid black;
-font-size: 14px;
-margin-top: 20px;
+    background-color:#cfe8e5;
+    padding: 8px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 
